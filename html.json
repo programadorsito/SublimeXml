@@ -1,0 +1,668 @@
+{
+	"attrs":
+	{
+		"align":
+		{
+			"e": "div,dd",
+			"n": "align",
+			"v": "right,center,left"
+		},
+		"apply":
+		{
+			"e": "window",
+			"n": "apply",
+			"v": "${IndexCtl}"
+		},
+		"ariahidden":
+		{
+			"e": "button",
+			"n": "ariahidden",
+			"v": "true"
+		},
+		"autodrop":
+		{
+			"e": "menubar",
+			"n": "autodrop",
+			"v": "true"
+		},
+		"border":
+		{
+			"e": "window",
+			"n": "border",
+			"v": "normal,none"
+		},
+		"charset":
+		{
+			"e": "meta",
+			"n": "charset",
+			"v": "utf-8"
+		},
+		"class":
+		{
+			"e": "?variable-resolver,link,script,div,a,pre,?script,p,table,dd,tr,span,label,button,input,form,select,abbr,blockquote",
+			"n": "class",
+			"v": "org.zkoss.zkplus.spring.DelegatingVariableResolver,include,nav,colleft,col1,code,col2,example-link,malo,btn-warning,btn,row,thumbnail,col-md-2,col-lg-4,container,lead,emphasi,text-warning,text-info,text-uppercase,mute,text-muted,dl-horizontal,success,warning,help-block,checkbox,form-control,radio,form-inline,input,input-sm,search-query,form-horizontal,cnotrol,controls,form-group,form-group-sm,form,sele,bar,initialism,blockquote-reverse,pre-scrollable,input-group,input-group-addon,control-label,close,sr-only,glyphicon-asterisk,glyphicon-plus,glyphicon-euro,glyphicon-minus,glyphicon-cloud,glyphicon-envelope,glyphicon-pencil,glyphicon-glass,glyphicon-music,glyphicon-search,glyphicon-heart,glyphicon-star,glyphicon-star-empty,glyphicon-user,glyphicon-film,glyphicon-th-large,glyphicon-th,glyphicon-th-list,glyphicon-ok,glyphicon-remove,glyphicon-zoom-in,glyphicon-zoom-out,glyphicon-off,glyphicon-signal,glyphicon-cog,glyphicon-trash,glyphicon-home,glyphicon-file,glyphicon-time,glyphicon-road,glyphicon-download-alt,glyphicon-download,glyphicon-upload,glyphicon-inbox,glyphicon-play-circle,glyphicon-repeat,glyphicon-refresh,glyphicon-list-alt,glyphicon-lock,glyphicon-flag,glyphicon-headphones,glyphicon-volume-off,glyphicon-volume-down,glyphicon-volume-up,glyphicon-qrcode,glyphicon-barcode,glyphicon-tag,glyphicon-tags,glyphicon-book,glyphicon-bookmark,glyphicon-print,glyphicon-camera,glyphicon-font,glyphicon-bold,glyphicon-italic,glyphicon-text-height,glyphicon-text-width,glyphicon-align-left,glyphicon-align-center,glyphicon-align-right,glyphicon-align-justify,glyphicon-list,glyphicon-indent-left,glyphicon-indent-right,glyphicon-facetime-video,glyphicon-picture,glyphicon-map-marker,glyphicon-adjust,glyphicon-tint,glyphicon-edit,glyphicon-share,glyphicon-check,glyphicon-move,glyphicon-step-backward,glyphicon-fast-backward,glyphicon-backward,glyphicon-play,glyphicon-pause,glyphicon-stop,glyphicon-forward,glyphicon-fast-forward,glyphicon-step-forward,glyphicon-eject,glyphicon-chevron-left,glyphicon-chevron-right,glyphicon-plus-sign,glyphicon-minus-sign,glyphicon-remove-sign,glyphicon-ok-sign,glyphicon-question-sign,glyphicon-info-sign,glyphicon-screenshot,glyphicon-remove-circle,glyphicon-ok-circle,glyphicon-ban-circle,glyphicon-arrow-left,glyphicon-arrow-right,glyphicon-arrow-up,glyphicon-arrow-down,glyphicon-share-alt,glyphicon-resize-full,glyphicon-resize-small,glyphicon-exclamation-sign,glyphicon-gift,glyphicon-leaf,glyphicon-fire,glyphicon-eye-open,glyphicon-eye-close,glyphicon-warning-sign,glyphicon-plane,glyphicon-calendar,glyphicon-random,glyphicon-comment,glyphicon-magnet,glyphicon-chevron-up,glyphicon-chevron-down,glyphicon-retweet,glyphicon-shopping-cart,glyphicon-folder-close,glyphicon-folder-open,glyphicon-resize-vertical,glyphicon-resize-horizontal,glyphicon-hdd,glyphicon-bullhorn,glyphicon-bell,glyphicon-certificate,glyphicon-thumbs-up,glyphicon-thumbs-down,glyphicon-hand-right,glyphicon-hand-left,glyphicon-hand-up,glyphicon-hand-down,glyphicon-circle-arrow-right,glyphicon-circle-arrow-left,glyphicon-circle-arrow-up,glyphicon-circle-arrow-down,glyphicon-globe,glyphicon-wrench,glyphicon-tasks,glyphicon-filter,glyphicon-briefcase,glyphicon-fullscreen,glyphicon-dashboard,glyphicon-paperclip,glyphicon-heart-empty,glyphicon-link,glyphicon-phone,glyphicon-pushpin,glyphicon-usd,glyphicon-gbp,glyphicon-sort,glyphicon-sort-by-alphabet,glyphicon-sort-by-alphabet-alt,glyphicon-sort-by-order,glyphicon-sort-by-order-alt,glyphicon-sort-by-attributes,glyphicon-sort-by-attributes-alt,glyphicon-unchecked,glyphicon-expand,glyphicon-collapse-down,glyphicon-collapse-up,glyphicon-log-in,glyphicon-flash,glyphicon-log-out,glyphicon-new-window,glyphicon-record,glyphicon-save,glyphicon-open,glyphicon-saved,glyphicon-import,glyphicon-export,glyphicon-send,glyphicon-floppy-disk,glyphicon-floppy-saved,glyphicon-floppy-remove,glyphicon-floppy-save,glyphicon-floppy-open,glyphicon-credit-card,glyphicon-transfer,glyphicon-cutlery,glyphicon-header,glyphicon-compressed,glyphicon-earphone,glyphicon-phone-alt,glyphicon-tower,glyphicon-stats,glyphicon-sd-video,glyphicon-hd-video,glyphicon-subtitles,glyphicon-sound-stereo,glyphicon-sound-dolby,glyphicon-sound-5-1,glyphicon-sound-6-1,glyphicon-sound-7-1,glyphicon-copyright-mark,glyphicon-registration-mark,glyphicon-cloud-download,glyphicon-cloud-upload,glyphicon-tree-conifer,glyphicon-tree-deciduous"
+		},
+		"closable":
+		{
+			"e": "window",
+			"n": "closable",
+			"v": "true,false"
+		},
+		"content":
+		{
+			"e": "meta",
+			"n": "content",
+			"v": "width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,utf-8,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1.0,width=device-width,initial-scale=1,width=device-width,initial-scale=1,width=device-width,initial-scale=1,width=device-width,initial-scale=1,width=device-width,initial-scale=1,width=device-width,initial-scale=1,width=device-width,initial-scale=1,width=device-width,initial-scale=1,width=device-width,initial-scale=1,width=device-width,initial-scale=1,width=device-width,initial-scale=1,width=device-width,initial-scale=1,width=device-width,initial-scale=1,width=device-width,initial-scale=1,width=device-width,initial-scale=1,width=device-width,initial-scale=1,width=device-width,initial-scale=1,width=device-width,initial-scale=1,width=device-width,initial-scale=1,width=device-width,initial-scale=1,width=device-width,initial-scale=1,width=device-width,initial-scale=1,width=device-width,initial-scale=1,width=device-width,initial-scale=1,width=device-width,initial-scale=1,width=device-width,initial-scale=1,width=device-width,initial-scale=1,width=device-width,initial-scale=1,width=device-width,initial-scale=1,width=device-width,initial-scale=1,width=device-width,initial-scale=1,width=device-width,initial-scale=1,width=device-width,initial-scale=1,width=device-width,initial-scale=1,width=device-width,initial-scale=1,width=device-width,initial-scale=1,width=device-width,initial-scale=1,width=device-width,initial-scale=1"
+		},
+		"contentType":
+		{
+			"e": "%@,?page",
+			"n": "contentType",
+			"v": "text/html;charset=UTF-8"
+		},
+		"dynamic":
+		{
+			"e": "style",
+			"n": "dynamic",
+			"v": "true"
+		},
+		"editable":
+		{
+			"e": "pre",
+			"n": "editable",
+			"v": "true"
+		},
+		"encoding":
+		{
+			"e": "?xml",
+			"n": "encoding",
+			"v": "UTF-8"
+		},
+		"focus":
+		{
+			"e": "window",
+			"n": "focus",
+			"v": "true"
+		},
+		"for":
+		{
+			"e": "label",
+			"n": "for",
+			"v": "name,checkbox,exampleInputEmail1,exampleInputPassword1,exampleInputFile,inputSuccess2,inputWarning2,inputError2"
+		},
+		"height":
+		{
+			"e": "window,div,include",
+			"n": "height",
+			"v": "90%,120px,100px,100%"
+		},
+		"href":
+		{
+			"e": "link,a,div",
+			"n": "href",
+			"v": "../jquery.jqplot.min.css,examples.min.css,syntaxhighlighter/styles/shCoreDefault.min.css,syntaxhighlighter/styles/shThemejqPlot.min.css,../../../index.php,../../../docs/,../../download/,../../../info.php,../../../donate.php,data-renderers.html,barLineAnimated.html,dashboardWidget.html,kcp_area.html,kcp_area2.html,axisLabelTests.html,axisLabelsRotatedText.html,barTest.html,multipleBarColors.html,bezierCurve.html,blockPlot.html,bubbleChart.html,bubble-plots.html,candlestick.html,theming.html,fillBetweenLines.html,kcp_cdf.html,dashedLines.html,cursor-highlighter.html,point-labels.html,date-axes.html,dateAxisRenderer.html,rotatedTickLabelsZoom.html,canvas-overlay.html,draw-rectangles.html,kcp_engel.html,bandedLine.html,area.html,axisScalingForceTickAt.html,hiddenPlotsInTabs.html,customHighlighterCursorTrendline.html,line-charts.html,kcp_lorenz.html,mekkoCharts.html,meterGauge.html,candlestick-charts.html,pieTest.html,pieTest4.html,pie-donut-charts.html,selectorSyntax.html,zooming.html,kcp_pdf.html,kcp_pyramid_by_age.html,kcp_pyramid.html,kcp_pyramid2.html,kcp_quintiles.html,resizablePlot.html,rotated-tick-labels.html,smoothedLine.html,bar-charts.html,waterfall.html,waterfall2.html,zoomOptions.html,zoomProxy.html,zoom1.html,dateAxisLogAxisZooming.html,clases.css,http://,http://www.google.com,css/bootstrap.css"
+		},
+		"httpequiv":
+		{
+			"e": "meta",
+			"n": "httpequiv",
+			"v": "Content-Type"
+		},
+		"id":
+		{
+			"e": "div,pre,label,window,image,menubar,menu,menuitem,toolbarbutton,include,input type=\"text\" id=\"name,input",
+			"n": "id",
+			"v": "container,tsv,mensaje,winIndex,divHeader,lblAdmin,menuBar,footer_logo,mbrMenu,m01,m0101,m02,m0201,m03,m0301,m04,m0401,m05,m0501,m0502,m0503,divUser,lblUserName,lblUser,btnLogout,tbnEnglish,tbnFrench,tbnSpanish,incluir,header,example-content,info1,chart1,info2,chart2,info2b,info2c,chart2b,info3,chart3,chart4,chart5,chart6,chart7,name,checkbox,exampleInputEmail1,exampleInputPassword1,exampleInputFile,inputSuccess2,inputWarning2,inputError2"
+		},
+		"label":
+		{
+			"e": "menu,menuitem,toolbarbutton",
+			"n": "label",
+			"v": "Dashborad,Car,PO,EA,Configuración,Usuario/Rol,Address,Proveedor,Logout"
+		},
+		"language":
+		{
+			"e": "%@,!--[if",
+			"n": "language",
+			"v": "java,javascript"
+		},
+		"mode":
+		{
+			"e": "include",
+			"n": "mode",
+			"v": "auto"
+		},
+		"multiple":
+		{
+			"e": "select",
+			"n": "multiple",
+			"v": "true"
+		},
+		"name":
+		{
+			"e": "meta",
+			"n": "name",
+			"v": "viewport,charset"
+		},
+		"onClick":
+		{
+			"e": "menuitem",
+			"n": "onClick",
+			"v": ""
+		},
+		"onclick":
+		{
+			"e": "input,body,p",
+			"n": "onclick",
+			"v": "hide(this),function_name,nose,nose()"
+		},
+		"page":
+		{
+			"e": "jsp:include",
+			"n": "page",
+			"v": "index.zul"
+		},
+		"placeholder":
+		{
+			"e": "input",
+			"n": "placeholder",
+			"v": "Nombre,Password"
+		},
+		"position":
+		{
+			"e": "window",
+			"n": "position",
+			"v": "center,top"
+		},
+		"progressing":
+		{
+			"e": "include",
+			"n": "progressing",
+			"v": "true"
+		},
+		"rel":
+		{
+			"e": "link",
+			"n": "rel",
+			"v": "stylesheet"
+		},
+		"role":
+		{
+			"e": "form",
+			"n": "role",
+			"v": "form"
+		},
+		"sclass":
+		{
+			"e": "div,toolbarbutton,grid",
+			"n": "sclass",
+			"v": "millicom,logo_tigo,logo_tat,titulo-login,menu_bar,menuBar_left,menuBar_center,menuBar_right,classUser,tbnEnglish,tbnFrench,tbnSpanish,clear,GridLayoutNoBorder"
+		},
+		"src":
+		{
+			"e": "script,style,?script,image,include,!--[if",
+			"n": "src",
+			"v": "index.js,pagina.js,http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js,../../js/highcharts.js,../../js/modules/data.js,../../js/modules/drilldown.js,jquery.js,js/jquery.js,js/highcharts.js,js/modules/data.js,js/modules/drilldown.js,style/main.css,/scripts/jquery-1.5.2.min.js,/scripts/jquery.maskedinput-1.3.min.js,/scripts/jquery.notice.js,img/logo_Banner.png,/img/logo/logo_Tag_Trigger1.png,/views/signIn/signIn.zul,/views/includes/footer.zul,../excanvas.js,http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js,../jquery.jqplot.min.js,syntaxhighlighter/scripts/shCore.min.js,syntaxhighlighter/scripts/shBrushJScript.min.js,syntaxhighlighter/scripts/shBrushXml.min.js,../plugins/jqplot.barRenderer.min.js,../plugins/jqplot.pieRenderer.min.js,../plugins/jqplot.categoryAxisRenderer.min.js,../plugins/jqplot.pointLabels.min.js,example.min.js,../jquery.min.js,jquery.min.js,jquery.jqplot.min.js,plugins/jqplot.barRenderer.min.js,plugins/jqplot.categoryAxisRenderer.min.js,plugins/jqplot.pointLabels.min.js"
+		},
+		"style":
+		{
+			"e": "div,pre,label,toolbarbutton",
+			"n": "style",
+			"v": "display:none"
+		},
+		"title":
+		{
+			"e": "?page,abbr",
+			"n": "title",
+			"v": "algo"
+		},
+		"type":
+		{
+			"e": "script,input,style,?script,link,!--[if,input type=\"text\" id=\"name,button",
+			"n": "type",
+			"v": "text/javascript,button,text/css,text,checkbox,submit,radio,email,password,file"
+		},
+		"value":
+		{
+			"e": "label,div,meta",
+			"n": "value",
+			"v": "Usuario:,utf-8"
+		},
+		"version":
+		{
+			"e": "?xml",
+			"n": "version",
+			"v": "1.0"
+		},
+		"visible":
+		{
+			"e": "div,menubar,menu,menuitem",
+			"n": "visible",
+			"v": "true,false"
+		},
+		"width":
+		{
+			"e": "window,menubar,div,column,include",
+			"n": "width",
+			"v": "910px,100%"
+		},
+		"wonClick":
+		{
+			"e": "window",
+			"n": "wonClick",
+			"v": ""
+		},
+		"xmlnsw":
+		{
+			"e": "zk",
+			"n": "xmlnsw",
+			"v": "client"
+		},
+		"xmlnsx":
+		{
+			"e": "zk",
+			"n": "xmlnsx",
+			"v": "xhtml"
+		},
+		"xmlnszk":
+		{
+			"e": "zk",
+			"n": "xmlnszk",
+			"v": "zk"
+		}
+	},
+	"tags":
+	{
+		"!--":
+		{
+			"c": "!-- Data from www.netmarketshare.com. Select Browsers => Desktop share by version. Download as tsv. -->",
+			"n": "!--",
+			"s": "n"
+		},
+		"!--[if":
+		{
+			"c": "!--[if lt IE 9]><script language=\"javascript\" type=\"text/javascript\" src=\"../excanvas.js\"></script><![endif]-->",
+			"n": "!--[if",
+			"s": "n"
+		},
+		"!DOCTYPE":
+		{
+			"c": "!DOCTYPE HTML>",
+			"n": "!DOCTYPE",
+			"s": "n"
+		},
+		"%@":
+		{
+			"c": "%@ page language=\"java\" contentType=\"text/html; charset=ISO-8859-1\"",
+			"n": "%@",
+			"s": "n"
+		},
+		"?page":
+		{
+			"c": "?page title=\"Gestor de Presupuestos - Indice\" contentType=\"text/html;charset=UTF-8\"?>",
+			"n": "?page",
+			"s": "n"
+		},
+		"?script":
+		{
+			"c": "?script type=\"text/javascript\" src=\"/scripts/jquery-1.5.2.min.js\"?>",
+			"n": "?script",
+			"s": "n"
+		},
+		"?variable-resolver":
+		{
+			"c": "?variable-resolver class=\"org.zkoss.zkplus.spring.DelegatingVariableResolver\"?>",
+			"n": "?variable-resolver",
+			"s": "n"
+		},
+		"?xml":
+		{
+			"c": "?xml version=\"1.0\" encoding=\"UTF-8\"?>",
+			"n": "?xml",
+			"s": "n"
+		},
+		"a":
+		{
+			"c": "a  href=\"http://www.google.com\" class=\"btn btn-success text-center\" >algo como esto</a>",
+			"n": "a",
+			"s": "y"
+		},
+		"abbr":
+		{
+			"c": "abbr></abbr>",
+			"n": "abbr",
+			"s": "n"
+		},
+		"blockquote":
+		{
+			"c": "blockquote class=\"blockquote-reverse\">",
+			"n": "blockquote",
+			"s": "n"
+		},
+		"body":
+		{
+			"c": "body >",
+			"n": "body",
+			"s": "n"
+		},
+		"br":
+		{
+			"c": "br />",
+			"n": "br",
+			"s": "y"
+		},
+		"br/":
+		{
+			"c": "br/>",
+			"n": "br/",
+			"s": "n"
+		},
+		"button":
+		{
+			"c": "button type=\"submit\" class=\"btn\">Submit</button>",
+			"n": "button",
+			"s": "n"
+		},
+		"caption":
+		{
+			"c": "caption>",
+			"n": "caption",
+			"s": "n"
+		},
+		"code":
+		{
+			"c": "code>",
+			"n": "code",
+			"s": "n"
+		},
+		"column":
+		{
+			"c": "column width=\"100%\"/>",
+			"n": "column",
+			"s": "n"
+		},
+		"columns":
+		{
+			"c": "columns>",
+			"n": "columns",
+			"s": "n"
+		},
+		"dd":
+		{
+			"c": "dd >",
+			"n": "dd",
+			"s": "n"
+		},
+		"di":
+		{
+			"c": "div",
+			"n": "di",
+			"s": "n"
+		},
+		"div":
+		{
+			"c": "div class=\"\">",
+			"n": "div",
+			"s": "y"
+		},
+		"dl":
+		{
+			"c": "dl >",
+			"n": "dl",
+			"s": "n"
+		},
+		"dt":
+		{
+			"c": "dt >",
+			"n": "dt",
+			"s": "n"
+		},
+		"em":
+		{
+			"c": "em>enfatizado pra que respet</em>",
+			"n": "em",
+			"s": "n"
+		},
+		"fieldset":
+		{
+			"c": "fieldset>",
+			"n": "fieldset",
+			"s": "n"
+		},
+		"footer":
+		{
+			"c": "footer>asies la cosa <cite>Danielito olina</cite></footer>",
+			"n": "footer",
+			"s": "n"
+		},
+		"form":
+		{
+			"c": "form>",
+			"n": "form",
+			"s": "n"
+		},
+		"grid":
+		{
+			"c": "grid sclass=\"GridLayoutNoBorder\">",
+			"n": "grid",
+			"s": "n"
+		},
+		"h1":
+		{
+			"c": "h1>",
+			"n": "h1",
+			"s": "n"
+		},
+		"h3":
+		{
+			"c": "h3>",
+			"n": "h3",
+			"s": "n"
+		},
+		"head":
+		{
+			"c": "head >",
+			"n": "head",
+			"s": "n"
+		},
+		"html":
+		{
+			"c": "html >",
+			"n": "html",
+			"s": "n"
+		},
+		"image":
+		{
+			"c": "image src=\"img/logo_Banner.png\"/>",
+			"n": "image",
+			"s": "n"
+		},
+		"include":
+		{
+			"c": "include id=\"incluir\" mode=\"auto\" src=\"/views/signIn/signIn.zul\" width=\"100%\" height=\"100%\" progressing=\"true\"/>",
+			"n": "include",
+			"s": "n"
+		},
+		"input":
+		{
+			"c": "input type=\"button\" />",
+			"n": "input",
+			"s": "n"
+		},
+		"input type=\"text\" id=\"name":
+		{
+			"c": "input type=\"text\" id=\"name\"",
+			"n": "input type=\"text\" id=\"name",
+			"s": "n"
+		},
+		"jsp:include":
+		{
+			"c": "jsp:include page=\"index.zul\"/>",
+			"n": "jsp:include",
+			"s": "n"
+		},
+		"kbd":
+		{
+			"c": "kbd>Ctrl+,</kbd>",
+			"n": "kbd",
+			"s": "n"
+		},
+		"label":
+		{
+			"c": "label class=\"control-label\" for=\"inputError2\">Input with error</label>",
+			"n": "label",
+			"s": "y"
+		},
+		"legend":
+		{
+			"c": "legend>Legend</legend>",
+			"n": "legend",
+			"s": "n"
+		},
+		"link":
+		{
+			"c": "link rel=\"stylesheet\" type=\"text/css\" href=\"css/bootstrap.css\" />",
+			"n": "link",
+			"s": "y"
+		},
+		"menu":
+		{
+			"c": "menu id=\"m01\" label=\"Dashborad\" visible=\"false\">",
+			"n": "menu",
+			"s": "n"
+		},
+		"menubar":
+		{
+			"c": "menubar id=\"mbrMenu\" width=\"100%\" visible=\"false\" autodrop=\"true\">",
+			"n": "menubar",
+			"s": "n"
+		},
+		"menuitem":
+		{
+			"c": "menuitem id=\"m0101\" label=\"Dashborad\" onClick='incluir.setSrc(\"views/dashboard/dashboard.zul\")' visible=\"false\"/>",
+			"n": "menuitem",
+			"s": "n"
+		},
+		"menupopup":
+		{
+			"c": "menupopup>",
+			"n": "menupopup",
+			"s": "n"
+		},
+		"meta":
+		{
+			"c": "meta name=\"viewport\" content=\"width=device-width,initial-scale=1\" />",
+			"n": "meta",
+			"s": "y"
+		},
+		"option":
+		{
+			"c": "option >",
+			"n": "option",
+			"s": "n"
+		},
+		"p":
+		{
+			"c": "p class=\"help-block\">Example block-level help text here.</p>",
+			"n": "p",
+			"s": "y"
+		},
+		"pre":
+		{
+			"c": "pre class=\"pre-scrollable\" editable=\"true\">",
+			"n": "pre",
+			"s": "y"
+		},
+		"row":
+		{
+			"c": "row>",
+			"n": "row",
+			"s": "n"
+		},
+		"rows":
+		{
+			"c": "rows>",
+			"n": "rows",
+			"s": "n"
+		},
+		"script":
+		{
+			"c": "script src=\"index.js\" type=\"text/javascript\">",
+			"n": "script",
+			"s": "n"
+		},
+		"select":
+		{
+			"c": "select >",
+			"n": "select",
+			"s": "n"
+		},
+		"small":
+		{
+			"c": "small>paqueño epro meligroso</small>",
+			"n": "small",
+			"s": "n"
+		},
+		"span":
+		{
+			"c": "span class=\"help-block\">Example block-level help",
+			"n": "span",
+			"s": "n"
+		},
+		"style":
+		{
+			"c": "style type=\"text/css\">",
+			"n": "style",
+			"s": "n"
+		},
+		"table":
+		{
+			"c": "table class=\"table table-striped\">",
+			"n": "table",
+			"s": "n"
+		},
+		"td":
+		{
+			"c": "td >",
+			"n": "td",
+			"s": "n"
+		},
+		"th":
+		{
+			"c": "th>Nombre</th>",
+			"n": "th",
+			"s": "n"
+		},
+		"title":
+		{
+			"c": "title>mi pagina</title>",
+			"n": "title",
+			"s": "n"
+		},
+		"toolbarbutton":
+		{
+			"c": "toolbarbutton id=\"btnLogout\" label=\"Logout\" style=\"font-weight: bold; padding-right: 20px;\"/>",
+			"n": "toolbarbutton",
+			"s": "n"
+		},
+		"tr":
+		{
+			"c": "tr >",
+			"n": "tr",
+			"s": "n"
+		},
+		"window":
+		{
+			"c": "window border=\"normal\" closable=\"true\" width=\"910px\"  focus=\"true\" height=\"90%\" w:onClick=\"closeBrowser('${nombre}');\">",
+			"n": "window",
+			"s": "n"
+		},
+		"zk":
+		{
+			"c": "zk xmlns:x=\"xhtml\" xmlns:zk=\"zk\" xmlns:w=\"client\">",
+			"n": "zk",
+			"s": "n"
+		}
+	}
+}

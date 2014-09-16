@@ -1,0 +1,10 @@
+[
+    {
+        "caption": "define el contexto para un archivo xml",
+        "command": "contexto"
+    },
+    {
+    	"caption": "emmet para una expresion",
+    	"command": "emmet"
+    }
+]

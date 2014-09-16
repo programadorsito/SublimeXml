@@ -1,0 +1,188 @@
+{
+	"attrs":
+	{
+		"xmlns":
+		{
+			"e": "project xmlns=\"http://maven.apache.org/POM/4.0.0\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance,project xmlns=\"http://maven.apache.org/POM/4.0.0",
+			"n": "xmlns",
+			"v": "http://maven.apache.org/POM/4.0.0"
+		},
+		"xmlnsxsi":
+		{
+			"e": "project xmlns=\"http://maven.apache.org/POM/4.0.0\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance",
+			"n": "xmlnsxsi",
+			"v": "http://www.w3.org/2001/XMLSchema-instance"
+		}
+	},
+	"tags":
+	{
+		"artifactId":
+		{
+			"c": "artifactId>simple-weather</artifactId>",
+			"n": "artifactId",
+			"s": "n"
+		},
+		"build":
+		{
+			"c": "build>",
+			"n": "build",
+			"s": "n"
+		},
+		"dependencies":
+		{
+			"c": "dependencies>",
+			"n": "dependencies",
+			"s": "n"
+		},
+		"dependency":
+		{
+			"c": "dependency>",
+			"n": "dependency",
+			"s": "n"
+		},
+		"developer":
+		{
+			"c": "developer>",
+			"n": "developer",
+			"s": "n"
+		},
+		"developers":
+		{
+			"c": "developers>",
+			"n": "developers",
+			"s": "n"
+		},
+		"email":
+		{
+			"c": "email>jason@maven.org</email>",
+			"n": "email",
+			"s": "n"
+		},
+		"finalName":
+		{
+			"c": "finalName>simple-webapp</finalName>",
+			"n": "finalName",
+			"s": "n"
+		},
+		"groupId":
+		{
+			"c": "groupId>org.sonatype.mavenbook.ch04</groupId>",
+			"n": "groupId",
+			"s": "n"
+		},
+		"id":
+		{
+			"c": "id>jason</id>",
+			"n": "id",
+			"s": "n"
+		},
+		"modelVersion":
+		{
+			"c": "modelVersion>4.0.0</modelVersion>",
+			"n": "modelVersion",
+			"s": "n"
+		},
+		"name":
+		{
+			"c": "name>simple-weather</name>",
+			"n": "name",
+			"s": "n"
+		},
+		"organization":
+		{
+			"c": "organization>",
+			"n": "organization",
+			"s": "n"
+		},
+		"organizationUrl":
+		{
+			"c": "organizationUrl>http://www.sonatype.com</organizationUrl>",
+			"n": "organizationUrl",
+			"s": "n"
+		},
+		"packaging":
+		{
+			"c": "packaging>jar</packaging>",
+			"n": "packaging",
+			"s": "n"
+		},
+		"parent":
+		{
+			"c": "parent>",
+			"n": "parent",
+			"s": "n"
+		},
+		"plugin":
+		{
+			"c": "plugin>",
+			"n": "plugin",
+			"s": "n"
+		},
+		"plugins":
+		{
+			"c": "plugins>",
+			"n": "plugins",
+			"s": "n"
+		},
+		"project xmlns=\"http://maven.apache.org/POM/4.0.0":
+		{
+			"c": "project xmlns=\"http://maven.apache.org/POM/4.0.0\"",
+			"n": "project xmlns=\"http://maven.apache.org/POM/4.0.0",
+			"s": "n"
+		},
+		"project xmlns=\"http://maven.apache.org/POM/4.0.0\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance":
+		{
+			"c": "project xmlns=\"http://maven.apache.org/POM/4.0.0\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"",
+			"n": "project xmlns=\"http://maven.apache.org/POM/4.0.0\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance",
+			"s": "n"
+		},
+		"project.build.sourceEncoding":
+		{
+			"c": "project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>",
+			"n": "project.build.sourceEncoding",
+			"s": "n"
+		},
+		"properties":
+		{
+			"c": "properties>",
+			"n": "properties",
+			"s": "n"
+		},
+		"role":
+		{
+			"c": "role>developer</role>",
+			"n": "role",
+			"s": "n"
+		},
+		"roles":
+		{
+			"c": "roles>",
+			"n": "roles",
+			"s": "n"
+		},
+		"scope":
+		{
+			"c": "scope>test</scope>",
+			"n": "scope",
+			"s": "n"
+		},
+		"timezone":
+		{
+			"c": "timezone>-6</timezone>",
+			"n": "timezone",
+			"s": "n"
+		},
+		"url":
+		{
+			"c": "url>http://maven.apache.org</url>",
+			"n": "url",
+			"s": "n"
+		},
+		"version":
+		{
+			"c": "version>1.0</version>",
+			"n": "version",
+			"s": "n"
+		}
+	}
+}

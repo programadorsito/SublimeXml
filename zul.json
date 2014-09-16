@@ -1,0 +1,578 @@
+{
+	"attrs":
+	{
+		"align":
+		{
+			"e": "column,div,listheader",
+			"n": "align",
+			"v": "left,center,right"
+		},
+		"apply":
+		{
+			"e": "window",
+			"n": "apply",
+			"v": "${RegisterPOCtl},c.Ventana,${DashboardCtl},${RegisterCarCtl},${RegisterUserCtl},${CarManagerCtl},${POManagerCtl},${EAManagerCtl},${CarFileCtl},${POFileCtl},${EAFileCtl}"
+		},
+		"autocomplete":
+		{
+			"e": "combobox",
+			"n": "autocomplete",
+			"v": "true"
+		},
+		"autodisable":
+		{
+			"e": "button",
+			"n": "autodisable",
+			"v": "btnSave"
+		},
+		"autodrop":
+		{
+			"e": "combobox",
+			"n": "autodrop",
+			"v": "true"
+		},
+		"bgColor":
+		{
+			"e": "chart",
+			"n": "bgColor",
+			"v": "#ffffff"
+		},
+		"border":
+		{
+			"e": "window",
+			"n": "border",
+			"v": "none"
+		},
+		"buttonVisible":
+		{
+			"e": "combobox",
+			"n": "buttonVisible",
+			"v": "true,false"
+		},
+		"checked":
+		{
+			"e": "checkbox",
+			"n": "checked",
+			"v": "true"
+		},
+		"class":
+		{
+			"e": "?variable-resolver",
+			"n": "class",
+			"v": "org.zkoss.zkplus.spring.DelegatingVariableResolver"
+		},
+		"closable":
+		{
+			"e": "window,groupbox",
+			"n": "closable",
+			"v": "true,false"
+		},
+		"constraint":
+		{
+			"e": "textbox",
+			"n": "constraint",
+			"v": ""
+		},
+		"contentType":
+		{
+			"e": "?page",
+			"n": "contentType",
+			"v": "text/html;charset=UTF-8"
+		},
+		"defer":
+		{
+			"e": "script",
+			"n": "defer",
+			"v": "true"
+		},
+		"detailed":
+		{
+			"e": "paging",
+			"n": "detailed",
+			"v": "true"
+		},
+		"encoding":
+		{
+			"e": "?xml",
+			"n": "encoding",
+			"v": "UTF-8"
+		},
+		"focus":
+		{
+			"e": "combobox,textbox",
+			"n": "focus",
+			"v": "true"
+		},
+		"format":
+		{
+			"e": "datebox",
+			"n": "format",
+			"v": "dd/MM/yyyy"
+		},
+		"fulfill":
+		{
+			"e": "combobox",
+			"n": "fulfill",
+			"v": "onClick"
+		},
+		"height":
+		{
+			"e": "chart",
+			"n": "height",
+			"v": "400"
+		},
+		"id":
+		{
+			"e": "window,label,combobox,textbox,datebox,button,html,groupbox,caption,listbox,listheader,listfooter,chart,div,checkbox,toolbarbutton,paging",
+			"n": "id",
+			"v": "winRegPO,lblCarNumbers,cbxCar,lblCarNumber,lblPO,txtPONumber,pgrCarSpend,lblName,txtName,lblRequest,floatRequest,lblRequestDate,dtxRequestDate,lblAddress,cbxAddress,lblExpirationDate,dtxExpirationDate,lblSupplier,cbxSupplier,btnSave,btnCancel,txtNombre,pagina,winDashboard,gbxSearch,cptSearch,lblCARNumber,cbxCarNumber,lblCARName,txtCARName,btnSearch,btnReset,listDashboard,headCARNumber,headCARName,headPONumber,headRequestDate,headApprovalDate,headInitialAmount,headCommitted,headQuoteBalance,headExecuted,headBalanceCommitted,headExitDate,footInitialAmount,footCommitted,footQuoteBalance,footExecuted,footBalanceCommitted,chtDashboard,chart,winRegCar,txtCarNumber,lblAppovalDate,dtxAppovalDate,lblInitialAmount,floatInitialAmount,lblStatus,chxStatus,winRegUser,lblRole,cbxRole,lblUsernames,txtUserName,lblUserName,lblActive,chxActive,lblPassword,txtPassword,lblConfirmPassword,txtConfirmPassword,winCarManager,cptCar,cbxStatus,btnAddNew,listCar,headCarNumber,headCarCommitedBar,headName,headAddress,headAppovalDate,headExpirationDate,headCarCommited,headStatus,headAction,pgListCar,winPOManager,cptPO,lblPONumber,lblExitDate,dtxExitDate,lblExecuted,floatExecuted,btnBack,listPO,headPOSpend,headRequest,headSupplier,pgListPO,winEAManager,cptEA,lblEANumber,txtEANumber,lblPONumbers,listEA,headEANumber,pgListEA,winCarFile,listCarFile,headFileName,headSize,headType,winPOFile,listPOFile,winEAFile,listEAFile"
+		},
+		"label":
+		{
+			"e": "button,caption,listheader,comboitem,toolbarbutton",
+			"n": "label",
+			"v": "Guardar,Cancelar,Búsqueda,Limpiar,Nombre,Comprometido,Ejecutado,CAR,Activo,Inactivo,Dirección,Estado,Accion,PO,Solicitud,Proveedor,EA,Tamaño,Tipo"
+		},
+		"maximizable":
+		{
+			"e": "window",
+			"n": "maximizable",
+			"v": "true,false"
+		},
+		"maxlength":
+		{
+			"e": "textbox",
+			"n": "maxlength",
+			"v": "128,512,256,50"
+		},
+		"minimizable":
+		{
+			"e": "window",
+			"n": "minimizable",
+			"v": "false"
+		},
+		"mold":
+		{
+			"e": "groupbox,listbox",
+			"n": "mold",
+			"v": "3d,paging"
+		},
+		"onCancel":
+		{
+			"e": "window",
+			"n": "onCancel",
+			"v": "self.detach();"
+		},
+		"open":
+		{
+			"e": "groupbox",
+			"n": "open",
+			"v": "true,false"
+		},
+		"orient":
+		{
+			"e": "chart",
+			"n": "orient",
+			"v": "vertical"
+		},
+		"pageSize":
+		{
+			"e": "listbox,paging",
+			"n": "pageSize",
+			"v": "20"
+		},
+		"pagingPosition":
+		{
+			"e": "listbox",
+			"n": "pagingPosition",
+			"v": "bottom"
+		},
+		"paneColor":
+		{
+			"e": "chart",
+			"n": "paneColor",
+			"v": "#FFFFFF"
+		},
+		"position":
+		{
+			"e": "window",
+			"n": "position",
+			"v": "center,center,top"
+		},
+		"readonly":
+		{
+			"e": "combobox",
+			"n": "readonly",
+			"v": "true"
+		},
+		"sclass":
+		{
+			"e": "groupbox,grid,label,button,caption,toolbarbutton",
+			"n": "sclass",
+			"v": "GrupoBoxNoBorder,GridLayoutNoBorder,colorGreenButton,colorGrayButton,search,addButton,anyButton"
+		},
+		"sizable":
+		{
+			"e": "listhead",
+			"n": "sizable",
+			"v": "true"
+		},
+		"sort":
+		{
+			"e": "listheader",
+			"n": "sort",
+			"v": "auto(carNumcar),auto(carName),auto(poNumpo),auto(carRequestDate),auto(carAppovalDate),auto(carInitialAmount),auto(quoteBalance),auto(eaExecution),auto(BalanceCommitted),auto(msAddAddress.addName),auto(carExpirationDate),auto,auto(addName),auto(poRequestDate),auto(poNameDescription),auto(poRequest),auto(eaRequestDate),auto(supName),auto(cafFileName),auto(cafSize),auto(cafType),auto(pofFileName),auto(pofSize),auto(pofType),auto(eafFileName),auto(eafSize),auto(eafType)"
+		},
+		"spans":
+		{
+			"e": "row",
+			"n": "spans",
+			"v": "1,1,1,1,2,1,1,1,1,2,1,1,1,1,2,1,1,1,1,2,1,1,1,1,2,1,1,1,1,2,1,1,1,1,2,1,1,1,1,2,1,1,1,1,2,1,1,1,1,2,1,1,1,1,2,1,1,1,1,2,1,1,1,1,2,1,1,1,1,2,1,1,1,1,2,1,1,1,1,2,1,1,1,1,2,1,1,1,1,2,1,1,1,1,2,1,1,1,1,2,1,1,1,1,2,1,1,1,1,2,1,1,1,1,2,1,1,1,1,2,1,1,1,1,2,1,1,1,1,2,1,1,1,1,2,1,1,1,1,2,1,1,1,1,2,1,1,1,1,2,1,1,1,1,2,1,1,1,1,2,1,1,1,1,2,1,1,1,1,2,1,1,1,1,2,1,1,1,1,2,1,1,1,1,2,1,1,1,1,2,1,1,1,1,2,1,1,1,1,2,1,1,1,1,2,1,1,1,1,2,1,1,1,1,2,1,1,1,1,2,1,1,1,1,2,1,1,1,1,2"
+		},
+		"src":
+		{
+			"e": "script",
+			"n": "src",
+			"v": "prueba.js,jquery.min.js,jquery.jqplot.min.js,plugins/jqplot.barRenderer.min.js,plugins/jqplot.categoryAxisRenderer.min.js,plugins/jqplot.pointLabels.min.js"
+		},
+		"style":
+		{
+			"e": "listfooter,div,toolbarbutton",
+			"n": "style",
+			"v": "width:850px;height:460px;"
+		},
+		"tabindex":
+		{
+			"e": "combobox,textbox,datebox,button,checkbox,toolbarbutton",
+			"n": "tabindex",
+			"v": "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15"
+		},
+		"threeD":
+		{
+			"e": "chart",
+			"n": "threeD",
+			"v": "true"
+		},
+		"title":
+		{
+			"e": "?page",
+			"n": "title",
+			"v": ""
+		},
+		"tooltiptext":
+		{
+			"e": "toolbarbutton",
+			"n": "tooltiptext",
+			"v": ""
+		},
+		"type":
+		{
+			"e": "chart,script,textbox",
+			"n": "type",
+			"v": "stacked_bar,text/javascript,password"
+		},
+		"upload":
+		{
+			"e": "toolbarbutton",
+			"n": "upload",
+			"v": "true"
+		},
+		"value":
+		{
+			"e": "label,comboitem",
+			"n": "value",
+			"v": "0,Nombre:,Solicitud:,Dirección:,Proveedor:,Direccion:,Estado:,Rol:,Usuario:,Activo:,Contraseña:,true,false,Ejecutado:"
+		},
+		"version":
+		{
+			"e": "?xml",
+			"n": "version",
+			"v": "1.0"
+		},
+		"visible":
+		{
+			"e": "label",
+			"n": "visible",
+			"v": "false"
+		},
+		"width":
+		{
+			"e": "window,column,combobox,textbox,label,datebox,div,chart,listheader",
+			"n": "width",
+			"v": "80%,15%,35%,90%,100px,100%,10%,25%,900,40%,80.7%,20%,50%"
+		},
+		"xmlnsh":
+		{
+			"e": "zk",
+			"n": "xmlnsh",
+			"v": "http://www.w3.org/1999/xhtml"
+		},
+		"xmlnszk":
+		{
+			"e": "zk",
+			"n": "xmlnszk",
+			"v": "http://www.zkoss.org/2005/zk"
+		},
+		"yAxis":
+		{
+			"e": "chart",
+			"n": "yAxis",
+			"v": ""
+		}
+	},
+	"tags":
+	{
+		"![CDATA":
+		{
+			"c": "![CDATA[",
+			"n": "![CDATA",
+			"s": "n"
+		},
+		"?page":
+		{
+			"c": "?page title=\"new page title\" contentType=\"text/html;charset=UTF-8\"?>",
+			"n": "?page",
+			"s": "n"
+		},
+		"?variable-resolver":
+		{
+			"c": "?variable-resolver class=\"org.zkoss.zkplus.spring.DelegatingVariableResolver\"?>",
+			"n": "?variable-resolver",
+			"s": "n"
+		},
+		"?xml":
+		{
+			"c": "?xml version=\"1.0\" encoding=\"UTF-8\"?>",
+			"n": "?xml",
+			"s": "n"
+		},
+		"body":
+		{
+			"c": "body >",
+			"n": "body",
+			"s": "n"
+		},
+		"button":
+		{
+			"c": "button>",
+			"n": "button",
+			"s": "n"
+		},
+		"caption":
+		{
+			"c": "caption id=\"cptSearch\" label=\"Opciones de Búsqueda\" sclass=\"search\"/>",
+			"n": "caption",
+			"s": "n"
+		},
+		"chart":
+		{
+			"c": "chart type=\"stacked_bar\" orient=\"vertical\" id=\"chtDashboard\" threeD=\"true\" paneColor=\"#FFFFFF\" bgColor=\"#ffffff\" yAxis=\"Presupuesto ($)\" width=\"900\" height=\"400\"/>",
+			"n": "chart",
+			"s": "n"
+		},
+		"checkbox":
+		{
+			"c": "checkbox id=\"chxStatus\" checked=\"true\" tabindex=\"8\"/>",
+			"n": "checkbox",
+			"s": "n"
+		},
+		"column":
+		{
+			"c": "column width=\"15%\" align=\"left\"/>",
+			"n": "column",
+			"s": "n"
+		},
+		"columns":
+		{
+			"c": "columns>",
+			"n": "columns",
+			"s": "n"
+		},
+		"combobox":
+		{
+			"c": "combobox id=\"cbxCar\" width=\"90%\" autocomplete=\"true\" buttonVisible=\"true\" autodrop=\"true\" fulfill=\"onClick\" tabindex=\"1\" focus=\"true\" readonly=\"true\"/>",
+			"n": "combobox",
+			"s": "n"
+		},
+		"comboitem":
+		{
+			"c": "comboitem label=\"Activo\" value=\"true\"/>",
+			"n": "comboitem",
+			"s": "n"
+		},
+		"datebox":
+		{
+			"c": "datebox id=\"dtxRequestDate\" format=\"dd/MM/yyyy\" width=\"100px\" tabindex=\"5\" />",
+			"n": "datebox",
+			"s": "n"
+		},
+		"div":
+		{
+			"c": "div>",
+			"n": "div",
+			"s": "n"
+		},
+		"grid":
+		{
+			"c": "grid sclass=\"GridLayoutNoBorder\">",
+			"n": "grid",
+			"s": "n"
+		},
+		"groupbox":
+		{
+			"c": "groupbox mold=\"3d\" closable=\"false\" sclass=\"GrupoBoxNoBorder\">",
+			"n": "groupbox",
+			"s": "n"
+		},
+		"h1":
+		{
+			"c": "h1>Titulo</h1>",
+			"n": "h1",
+			"s": "n"
+		},
+		"h1>hola":
+		{
+			"c": "h1>hola todos</h1>",
+			"n": "h1>hola",
+			"s": "n"
+		},
+		"hbox":
+		{
+			"c": "hbox>",
+			"n": "hbox",
+			"s": "n"
+		},
+		"head":
+		{
+			"c": "head >",
+			"n": "head",
+			"s": "n"
+		},
+		"html":
+		{
+			"c": "html >",
+			"n": "html",
+			"s": "n"
+		},
+		"label":
+		{
+			"c": "label id=\"lblCarNumbers\" value=\"# CAR:\" sclass=\"tableForm ui-jqgrid ui-widget\"/>",
+			"n": "label",
+			"s": "n"
+		},
+		"listbox":
+		{
+			"c": "listbox id=\"listDashboard\" >",
+			"n": "listbox",
+			"s": "n"
+		},
+		"listfoot":
+		{
+			"c": "listfoot>",
+			"n": "listfoot",
+			"s": "n"
+		},
+		"listfooter":
+		{
+			"c": "listfooter id=\"footInitialAmount\" style=\"color: #24529A; font-weight: bold;\"/>",
+			"n": "listfooter",
+			"s": "n"
+		},
+		"listfooter/":
+		{
+			"c": "listfooter/>",
+			"n": "listfooter/",
+			"s": "n"
+		},
+		"listhead":
+		{
+			"c": "listhead sizable=\"true\">",
+			"n": "listhead",
+			"s": "n"
+		},
+		"listheader":
+		{
+			"c": "listheader id=\"headCARNumber\" align=\"left\" label=\"# CAR\" sort=\"auto(carNumcar)\"/>",
+			"n": "listheader",
+			"s": "n"
+		},
+		"p>como":
+		{
+			"c": "p>como esta todo</p>",
+			"n": "p>como",
+			"s": "n"
+		},
+		"paging":
+		{
+			"c": "paging id=\"pgListCar\" pageSize=\"20\" detailed=\"true\" />",
+			"n": "paging",
+			"s": "n"
+		},
+		"row":
+		{
+			"c": "row>",
+			"n": "row",
+			"s": "n"
+		},
+		"rows":
+		{
+			"c": "rows>",
+			"n": "rows",
+			"s": "n"
+		},
+		"script":
+		{
+			"c": "script defer=\"true\"><![CDATA[",
+			"n": "script",
+			"s": "n"
+		},
+		"separator/":
+		{
+			"c": "separator/>",
+			"n": "separator/",
+			"s": "n"
+		},
+		"style":
+		{
+			"c": "style>.z-toolbarbutton-over { text-decoration: underline; }</style>",
+			"n": "style",
+			"s": "n"
+		},
+		"textbox":
+		{
+			"c": "textbox id=\"floatExecuted\" width=\"80%\" tabindex=\"8\"/>",
+			"n": "textbox",
+			"s": "y"
+		},
+		"toolbarbutton":
+		{
+			"c": "toolbarbutton id=\"btnAddNew\" tooltiptext=\"Adicionar Car\" label=\"Crear Nuevo Car\" sclass=\"addButton\" style=\"font-size: 18px;\" tabindex=\"11\"/>",
+			"n": "toolbarbutton",
+			"s": "n"
+		},
+		"window":
+		{
+			"c": "window id=\"winEAFile\" apply=\"${EAFileCtl}\" border=\"none\" width=\"80%\" position=\"center\" closable=\"true\" maximizable=\"true\" onCancel=\"self.detach();\">",
+			"n": "window",
+			"s": "y"
+		},
+		"zk":
+		{
+			"c": "zk>",
+			"n": "zk",
+			"s": "n"
+		},
+		"zscript":
+		{
+			"c": "zscript><![CDATA[",
+			"n": "zscript",
+			"s": "n"
+		},
+		"zscript><![CDATA":
+		{
+			"c": "zscript><![CDATA[",
+			"n": "zscript><![CDATA",
+			"s": "n"
+		}
+	}
+}
