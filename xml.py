@@ -3,6 +3,9 @@ import sublime_plugin
 
 
 
+
+
+
 class TiposXml:
 	def tipoValido(tipo):
 		return tipo.startswith("text.zul ") or tipo.startswith("text.html") or tipo.startswith("text.maven")
