@@ -173,6 +173,7 @@ class CompletacionXml:
 				lista.append(atributo)
 		return lista
 
+
 class xmlCompletions(sublime_plugin.EventListener):
 	def on_query_completions(self, view, prefix, locations):
 		tipo=view.scope_name(0)
